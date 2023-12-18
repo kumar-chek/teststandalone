@@ -1,0 +1,23 @@
+.main-container{
+    nav{
+        background-color: darkcyan;
+        ul{
+            display:flex;
+            li{
+                list-style: none;
+                padding: 20px 40px;
+                cursor: pointer;
+                color: white;
+                //to change the backgound color on hover
+                &:hover{
+                    background-color: #007070;
+                    transition: all 1s;
+                }
+                //to put the login on left end
+                &:last-child{
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+}
